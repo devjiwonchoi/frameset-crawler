@@ -1,7 +1,9 @@
 {
-  "name": "daily-news-crawler-js",
+  "name": "frameset-crawler",
   "private": true,
   "version": "0.0.0",
+  "license": "MIT",
+  "description": "HTML4 Frameset Crawler",
   "scripts": {
     "crawl": "ts-node src/crawler.ts",
     "upload": "ts-node src/uploader.ts"
