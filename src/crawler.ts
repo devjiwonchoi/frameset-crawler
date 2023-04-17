@@ -18,7 +18,7 @@ async function Crawler() {
   await page.type('#id', adminInfo.id);
   await page.type('#password', adminInfo.password);
   await page.click('#submit');
-  await page.waitForNavigation(); // Wait for full load page
+  await page.waitForSelector('frameset'); // Wait for frameset
 
   // Onclick Mailing
   await page
